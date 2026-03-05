@@ -48,7 +48,7 @@ export default function ReadingCard({ title, icon, reading, colorClass, delay = 
               <div className="absolute -left-6 top-0 text-6xl text-amber-200/50 font-serif leading-none select-none">
                 &ldquo;
               </div>
-              <p className="text-gray-700 leading-relaxed text-sm sm:text-base whitespace-pre-line relative z-10">
+              <p className="text-gray-700 leading-relaxed text-sm sm:text-base whitespace-pre-line break-words relative z-10">
                 {reading.text}
               </p>
             </div>

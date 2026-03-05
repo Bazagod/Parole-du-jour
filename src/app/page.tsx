@@ -15,9 +15,9 @@ export default function HomePage() {
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
           <div className="text-center space-y-6">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 border border-white/20 text-sm font-medium backdrop-blur-sm">
-              <Sparkles className="w-4 h-4 text-amber-300" />
-              <span className="text-amber-100">Lectures Liturgiques Quotidiennes</span>
+            <div className="inline-flex flex-wrap items-center justify-center gap-2 px-4 py-2 rounded-full bg-white/10 border border-white/20 text-sm font-medium backdrop-blur-sm max-w-full">
+              <Sparkles className="w-4 h-4 shrink-0 text-amber-300" />
+              <span className="text-amber-100 text-center">Lectures Liturgiques Quotidiennes</span>
             </div>
 
             <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold tracking-tight">
